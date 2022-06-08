@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+body {
+	margin-left: 25px;
+}
+/*.container {
+	width: 300px;
+	height: 250px;
+	background: blue;
+}*/
+div p {
+	color: red;
+}
+div a {
+	color: green;
+	text-decoration: none;
+}
+#abc1 {
+	font-size: 50px;
+}
+.zxc {
+	color: yellow;
+}
+div.zxc::after {
+	content: "*";
+	color: pink;
+}
+input.test::after {
+	content: "*";
+	color: red;
+}
+[name=save] {
+	width: 50px;
+	height: 25px;
+	background-color: white;
+}
+[name|=save1] {
+	width: 50px;
+	height: 25px;
+	margin-left: 35px;
+	background-color: white;
+}
+[name~=save1]:hover {
+	width: 50px;
+	height: 25px;
+	background-color: green;
+	box-shadow: 0px 0px 15px green ;
+}
+.left,.right {
+	width: 60px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+}
+.left {
+	transform: rotate(45deg);
+	border-top-left-radius:35px ;
+	border-top-right-radius:35px ;
+	box-shadow: 0px 0px 100px red ;
+}
+.right {
+	transform: rotate(135deg);
+	margin-left: -30px;
+	border-bottom-left-radius:35px ;
+	border-bottom-right-radius:35px ;
+	box-shadow: 0px 0px 100px red ;
+}
+.heath {
+	margin-top: 20%;
+	margin-left: 50%;
+	margin-right: auto;
+}
