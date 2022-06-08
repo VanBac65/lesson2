@@ -1,0 +1,161 @@
+body {
+	width: auto;
+	height: auto;
+}
+input:hover, select:hover {
+	box-shadow: 0px 0px 10px red;
+	border: 1px solid red;
+}
+
+input {
+	padding-left: 10px;
+}
+
+h4, span {
+	font-family: Florence, cursive;
+}
+
+[name] {
+	border: 1px solid black;
+}
+.container {
+	width: 1000px;
+	height: 550px;
+	background-color: #f5f5dd;
+	margin: auto;
+}
+
+.top-left {
+	width: 460px;
+	float: left;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+[name="email"] {
+	width: 440px;
+	height: 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.top-right {
+	width: 500px;
+	float: left;
+	margin-left: 10px;
+}
+
+[name="password"] {
+	width: 460px;
+	height: 30px;
+	font-size: 18px;
+	border-radius: 5px ;
+}
+
+.center {
+	clear: left ;
+}
+
+.text-add {
+	margin-left: 30px;
+}
+
+[name="address"], [name="address2"] {
+	width: 930px;
+	height: 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+
+::placeholder  {
+	font-family: Florence, cursive;
+
+}
+
+.center2 {
+	margin-left: 30px;
+}
+
+.city {
+	float: left;
+	margin-top: -20px;
+}
+
+[name="city"] {
+	width: 440px;
+	font-size: 18px;
+	height: 30px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+
+/*[name="select"] {
+	float: left;
+	font-size: 18px;
+	height: 30px;
+	border-radius: 5px;
+	width: 300px;
+	margin-top: 1px;
+	margin-left: -4px;
+}*/
+
+select{
+	float: left;
+	font-size: 18px;
+	height: 35px;
+	border-radius: 5px;
+	width: 300px;
+	margin-top: 1px;
+	border: 1px solid black;
+	margin-left: -4px;
+}
+
+.zip {
+	float: left;
+	margin-top: -65px;
+	margin-left: 20px;
+}
+
+[name="zip"] {
+	width: 140px;
+	font-size: 18px;
+	height: 30px;
+	border-radius: 5px;
+	margin-right: 20px;
+	margin-top: 1px;
+}
+
+.bot {
+	clear: left;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+
+[name="checkme"] {
+	margin-top: 10px;
+}
+
+[name="signin"] {
+	margin-top: 20px;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	border: 0px solid #0079fa;
+	background-color: #0079fa;
+	font-weight: 10px;
+	color: white;
+	font-size: 18px;
+}
+
+[name="signin"]:hover {
+	margin-top: 20px;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	border: 0px solid #1c2ebf;
+	background-color: #1c2ebf;
+	font-weight: 10px;
+	color: white;
+	font-size: 20px;
+}
