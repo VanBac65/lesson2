@@ -86,8 +86,12 @@ body {
 }
 
 .cont-left {
-	padding-left: 5%;
-	width: 300px;
+	width: 400px;
+	float: left;
+}
+
+.cont-left button {
+	width: 200px;
 	float: left;
 }
 
