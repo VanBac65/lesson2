@@ -1,0 +1,167 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: black;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+}
+
+.menu {
+	border-right: 5px solid white;
+	border-left: 5px solid white;
+	border-bottom: 5px solid white;
+	border-top: 15px solid white;
+	height: 80px;
+	line-height: 80px;
+	background-color: #333333;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+}
+
+.menu ul li {
+	font-size: 25px;
+	width: 100px;
+	text-align: center;
+}
+
+.menu ul li button {
+	background-color: #333333;
+	color: white;
+	width: 100px;
+	height: 80px;
+	border: 0px solid #333333;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.menu ul li button:hover {
+	background-color: #4caf50;
+	color: white;
+	width: 100px;
+	height: 80px;
+	border: 0px solid #333333;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.container {
+	background-color: white;
+	width: 75%;
+	height: 550px;
+	margin-top: 15px;
+	margin-left: 15% ;
+}
+.cont-top {
+	background-color: #2a3d51;	
+	height: 11%;
+	line-height: 300%;
+}
+
+.cont-top button {
+	display: block;
+	background-color: #2a3d51;	
+	line-height: 400%;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.cont-top button:hover {
+	display: block;
+	background-color: #19232f;	
+	line-height: 400%;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.cont-left {
+	padding-left: 5%;
+	width: 300px;
+	float: left;
+}
+
+.cont-right {
+	float: right;
+	color: white;
+	padding-right: 5%;
+}
+
+.cont-right ul {
+	list-style: none;
+	display: flex;
+}
+
+.cont-right ul li button{
+	width: 100px;
+}
+
+.about {
+	background-color: ;
+}
+
+.cten-top {
+	clear: right;
+	color: #2a3d51;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.cten-cten {
+	margin-top: 5%;
+	padding-left: 15%;
+	padding-right: auto;
+}
+
+.cten-cten ul {
+	list-style: none;
+}
+
+.cten-cten ul li {
+}
+
+.cten-cten ul li input {
+	width: 80%;
+	height: 60px;
+	font-size: 30px;
+	padding-left: 15px;
+	margin: 1px;
+}
+
+[name="name"] {
+	border: 1px solid #f9f9f9;
+} 
+
+[name="address"] {
+	border: 1px solid #f9f9f9;
+}
+
+[name="message"] {
+	border: 1px solid #f9f9f9;
+}
+
+[name="name"]:hover {
+	border: 1px solid #f9f9f9;
+	box-shadow: 0px 0px 10px red;
+} 
+
+[name="address"]:hover {
+	border: 1px solid #f9f9f9;
+	box-shadow: 0px 0px 10px red;
+}
+
+[name="message"]:hover {
+	border: 1px solid #f9f9f9;
+	box-shadow: 0px 0px 10px red;
+}
